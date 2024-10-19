@@ -1,0 +1,15 @@
+My experience in commissioning and troubleshooting controls automation systems translates well to working with Building Management Systems (BMS) at data centers. Here’s how my skills apply:
+
+1. **Understanding of Sensors and Actuators**: In my current role, I deal with sensors and actuators for equipment like motors, valves, and conveyors. In BMS, I’ll work with similar devices to control HVAC, lighting, and electrical systems. My knowledge of sensor calibration, wiring, and feedback loops applies directly to the BMS components, which often use the same types of sensors to monitor temperature, humidity, and pressure.
+
+2. **Control Systems Programming**: I’ve programmed and troubleshot PLCs and SCADA systems. In a data center, BMS software (like Siemens, Schneider Electric, or Trend) operates similarly to a SCADA system, with graphical interfaces and automation logic controlling environmental conditions. My ability to write and troubleshoot logic in PLCs could directly apply to configuring BMS control logic, such as adjusting HVAC operations based on temperature readings.
+
+3. **Network Communications and Protocols**: In automation, I work with protocols like Ethernet/IP, Modbus, and Profibus to connect control devices. In BMS, I'll encounter similar protocols (like BACnet or LonWorks), which are used to integrate HVAC, electrical systems, and monitoring equipment. My understanding of network topologies, IP addressing, and data communications gives me an edge in managing the BMS networks. I worked with BACnet for 2 weeks back in February of 2021, so I am not an expert by any means, but at least I have an idea of it and I am not intimidated by it, I believe I could pick it up fast.
+
+4. **System Commissioning**: Commissioning in automation involves ensuring the proper installation and function of control systems, from wiring to programming. BMS commissioning at a data center similarly requires verifying that sensors, controllers, and interfaces are working as expected and that the HVAC and power systems respond correctly to environmental inputs. My commissioning procedures, such as checking I/O points, running diagnostics, and verifying control loops, align with what is needed to commission a BMS.
+
+5. **Troubleshooting Complex Systems**: In both controls automation and BMS environments, when a system fails, I need to diagnose the problem quickly. My experience in isolating issues, interpreting alarms, and using tools like multimeters or network analyzers for troubleshooting can directly be applied to identifying issues in BMS-controlled HVAC systems or power monitoring units.
+
+6. **Maintenance and Preventative Procedures**: My experience ensuring uptime by maintaining automated systems can transition to maintaining the BMS infrastructure in a data center. Regular calibration of sensors, firmware updates on controllers, and routine system checks are key to both roles, ensuring continuous operation and efficiency.
+
+By applying these transferrable skills, my transition into working with BMS at a data center would leverage the core competencies I already possess in automation and controls.

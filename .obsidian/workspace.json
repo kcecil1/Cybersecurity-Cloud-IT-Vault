@@ -1,0 +1,251 @@
+{
+  "main": {
+    "id": "c328d962b80a3e0c",
+    "type": "split",
+    "children": [
+      {
+        "id": "4536f024b5a569c8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7b709dbd54526b84",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20241009010801.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20241009010801"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4cc7802322de93fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "a986ddada5bdc482",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5a2ecfff58e83699",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTimeReverse"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "60dc6f068ea8fcc8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "byModifiedTime"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "83fc1acf4d677e11",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 372.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "10339910df25c318",
+    "type": "split",
+    "children": [
+      {
+        "id": "534eb0a6d5430e32",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eb4312c5d1c70a66",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Pasted image 20241009010801.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Pasted image 20241009010801"
+            }
+          },
+          {
+            "id": "f010d6718a3eb671",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Pasted image 20241009010801.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Pasted image 20241009010801"
+            }
+          },
+          {
+            "id": "2731b9a18714f2ae",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "fe99cf11643507a6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Pasted image 20241009010801.png"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Pasted image 20241009010801"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "publish:Publish changes...": false
+    }
+  },
+  "floating": {
+    "id": "2acb68d2450e8497",
+    "type": "floating",
+    "children": [
+      {
+        "id": "d2da5a4010b87eb3",
+        "type": "window",
+        "children": [
+          {
+            "id": "78a8b14da08a8b8d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "f22967953312fd08",
+                "type": "leaf",
+                "state": {
+                  "type": "image",
+                  "state": {
+                    "file": "Pasted image 20241009010801.png"
+                  },
+                  "icon": "lucide-image",
+                  "title": "Pasted image 20241009010801"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 341,
+        "y": 133,
+        "width": 1025,
+        "height": 801,
+        "maximize": true,
+        "zoom": 1
+      }
+    ]
+  },
+  "active": "7b709dbd54526b84",
+  "lastOpenFiles": [
+    "Cloud Projects/Hands on Azure Projects/Wireshark Network Linux Windows VM.md",
+    "Pasted image 20241009010801.png",
+    "Cloud Projects/Hands on AWS Projects/AWS S3 and CloudFront Static Website Hosting with SSL Encryption.md",
+    "Data Centers/AWS/EOT PS PREP.md",
+    "Cybersecurity/Microsoft SC-900",
+    "Data Centers/STAR responses for Technical Topics/Chiller Refrigeration Cycle STAR.md",
+    "Data Centers/STAR responses for Technical Topics/Safety Systems (fire alarm) STAR.md",
+    "Data Centers/AWS/AWS Key Products with direct application.md",
+    "Data Centers/AWS/What Interests me in Amazon.md",
+    "Data Centers/AWS/Leadership Principles applied in my life.md",
+    "Data Centers/AWS",
+    "Data Centers/AWS/AWS Leadership Principles.md",
+    "Cloud Labs/A Cloud Guru/IAM/IAM Sign-In Link to Sign In as Each User.md",
+    "Pasted image 20241015021902.png",
+    "Pasted image 20241015021813.png",
+    "Pasted image 20241015021737.png",
+    "Pasted image 20241015021552.png",
+    "Pasted image 20241015021401.png",
+    "Pasted image 20241015021335.png",
+    "Pasted image 20241015021309.png",
+    "Pasted image 20241015021123.png",
+    "Pasted image 20241015021032.png",
+    "Cloud Labs/A Cloud Guru/IAM/Add Users to Proper Groups IAM.md",
+    "Cloud Labs/A Cloud Guru/IAM",
+    "Cybersecurity Projects/Phishing Awareness Campaign/MasterCard/Phishing Email Simulation Campaign.md",
+    "Plan to get into IT/Sequence path for cloud security engineer.md",
+    "Data Centers/Above and Beyond Value/Scenario 3 Creating Troubleshooting Instructions.md",
+    "Cybersecurity Projects/Phishing Awareness Campaign",
+    "Cybersecurity Projects",
+    "Data Centers/Above and Beyond Value/Scenario 2 Implementing a Battery Tracking System for UPS Systems.md",
+    "Data Centers/Above and Beyond Value/Scenario 1 Troubleshooting Lift Motor with Blown Fuses.md",
+    "Data Centers/AWS/Building Automation Systems transferrable skills.md",
+    "Data Centers/Above and Beyond Value",
+    "Data Centers/STAR responses for Technical Topics/Generator STAR.md",
+    "Data Centers/AWS/UPS and Generators Info.md",
+    "Data Centers/AWS/Cooling Towers & Electrical Fuses, Circuit Breakers.md",
+    "Data Centers/STAR responses for Technical Topics/Mechanical Maintenance Safety Requirements STAR.md",
+    "Data Centers/STAR responses for Technical Topics/Electrical Safety Requirements STAR.md",
+    "Data Centers/STAR responses for Technical Topics/Electrical Fuses and Circuit Breakers STAR.md",
+    "Data Centers/STAR responses for Technical Topics/Wet Bulb and Dry Bulb Star.md",
+    "Data Centers/STAR responses for Technical Topics/Building Automation Star, Ignition scada.md",
+    "Cloud Theory/Microsoft Azure SC-900/Intro to Computers and OS Security/Module 1",
+    "Cloud Theory/Microsoft Azure SC-900/Intro to Computers and OS Security",
+    "Cloud Theory/Microsoft Azure SC-900",
+    "Cloud Labs/Cloud Engineering Academy",
+    "Untitled.canvas"
+  ]
+}
