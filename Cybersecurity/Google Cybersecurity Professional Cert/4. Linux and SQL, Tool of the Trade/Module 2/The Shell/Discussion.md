@@ -4,12 +4,10 @@ Using Linux commands is an important skill for cybersecurity professionals. As y
 
 For this discussion prompt, consider the following questions:
 
-- What are the general strategies you use when learning something new? How might these strategies be useful when learning Linux commands? 
-    
-- If you have previously learned Linux commands, what general advice do you have for others based on your experiences? If you haven't previously learned Linux commands, what interests you most about learning them?
-    
+* What are the general strategies you use when learning something new? How might these strategies be useful when learning Linux commands?&#x20;
+* If you have previously learned Linux commands, what general advice do you have for others based on your experiences? If you haven't previously learned Linux commands, what interests you most about learning them?
 
-Please write two paragraphs in response to these questions (100-200 words). 
+Please write two paragraphs in response to these questions (100-200 words).&#x20;
 
 Then, go to the [discussion forums](https://www.coursera.org/learn/linux-and-sql/discussions) and, applying what you’ve learned, comment on at least two posts from other learners.
 

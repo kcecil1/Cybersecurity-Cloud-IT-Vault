@@ -1,158 +1,175 @@
+# Permission Management
+
 Let’s break this lesson down using the Pareto Principle: 20% of the most essential commands and concepts will do 80% of the work you’ll encounter as an entry-level security analyst when managing permissions in Linux. These are the go-to commands and concepts you'll need to handle permissions efficiently.
 
-### 1. **Understanding Permissions (ls -l)**
+#### 1. **Understanding Permissions (ls -l)**
 
-**Quick Overview:**  
+**Quick Overview:**\
 Permissions in Linux are divided into three parts:
-- **Owner** (u): The person who owns the file.
-- **Group** (g): A group of users who can also access the file.
-- **Others** (o): Everyone else.
+
+* **Owner** (u): The person who owns the file.
+* **Group** (g): A group of users who can also access the file.
+* **Others** (o): Everyone else.
 
 Each part has three types of permissions:
-- **r** (Read): Can view the file's contents.
-- **w** (Write): Can modify or delete the file.
-- **x** (Execute): Can run the file as a program.
+
+* **r** (Read): Can view the file's contents.
+* **w** (Write): Can modify or delete the file.
+* **x** (Execute): Can run the file as a program.
 
 Command to practice:
+
 ```bash
 ls -l /etc/passwd
 ```
+
 This command lists the file details along with permissions, which look like `-rwxr-xr--`.
 
-**Quick practice tip:**  
+**Quick practice tip:**\
 Run this command on different directories (like `/etc`, `/home`) to get familiar with the permission structure.
 
----
+***
 
-### 2. **Modifying Permissions (chmod)**
+#### 2. **Modifying Permissions (chmod)**
 
-**The Pareto Breakdown:**  
-- **`chmod`** is your main tool for changing permissions. You’ll use it to grant or restrict access to files and directories. 
-- Permissions are often set using **octal notation** (numbers) or symbolic notation (`r`, `w`, `x`).
+**The Pareto Breakdown:**
+
+* **`chmod`** is your main tool for changing permissions. You’ll use it to grant or restrict access to files and directories.
+* Permissions are often set using **octal notation** (numbers) or symbolic notation (`r`, `w`, `x`).
 
 **Command to remember:**
+
 ```bash
 chmod 754 myfile
 ```
-This sets:
-- **Owner:** Read, write, execute (7)
-- **Group:** Read, execute (5)
-- **Others:** Read (4)
 
-**Quick practice tip:**  
+This sets:
+
+* **Owner:** Read, write, execute (7)
+* **Group:** Read, execute (5)
+* **Others:** Read (4)
+
+**Quick practice tip:**\
 Create a test file:
+
 ```bash
 touch testfile
 chmod 744 testfile
 ```
+
 This lets you play around with permission settings easily.
 
----
+***
 
-### 3. **Change Ownership (chown)**
+#### 3. **Change Ownership (chown)**
 
 **Essentials for Ownership:**
-- **`chown`** allows you to change who owns the file and which group has access.
-- Command syntax: `chown <user>:<group> <file>`
+
+* **`chown`** allows you to change who owns the file and which group has access.
+* Command syntax: `chown <user>:<group> <file>`
 
 **Command to remember:**
+
 ```bash
 chown root:root myfile
 ```
+
 This sets the owner and group to root.
 
-**Quick practice tip:**  
+**Quick practice tip:**\
 Run `ls -l` before and after using `chown` to see how ownership changes. Practice on non-system files to avoid breaking anything!
 
----
+***
 
-### 4. **Special Permissions (SUID, SGID, Sticky Bit)**
+#### 4. **Special Permissions (SUID, SGID, Sticky Bit)**
 
 These are often used for more advanced permission control, but knowing just the basics will get you far.
 
-- **SUID** (Set User ID): Lets a program run as the owner, not the user.
-- **SGID** (Set Group ID): Lets a program run as the group owner.
-- **Sticky Bit**: Prevents non-owners from deleting or renaming files in shared directories.
+* **SUID** (Set User ID): Lets a program run as the owner, not the user.
+* **SGID** (Set Group ID): Lets a program run as the group owner.
+* **Sticky Bit**: Prevents non-owners from deleting or renaming files in shared directories.
 
 **Sticky Bit Example (common in shared directories):**
+
 ```bash
 chmod +t mydir
 ```
+
 Sets the sticky bit on a directory so only the owner can delete files.
 
-**Quick practice tip:**  
+**Quick practice tip:**\
 Set a sticky bit on a directory you create:
+
 ```bash
 mkdir testdir
 chmod +t testdir
 ```
+
 Check with:
+
 ```bash
 ls -ld testdir
 ```
 
----
+***
 
-### 5. **Common Permission Scenarios (Hands-On Practice)**
+#### 5. **Common Permission Scenarios (Hands-On Practice)**
 
-1. **See Permissions:**
-   ```bash
-   ls -l
-   ```
-   This is the most common command you’ll run to inspect permissions.
+1.  **See Permissions:**
 
-2. **Deny Access to Others:**
-   Remove all permissions for "others":
-   ```bash
-   chmod o-rwx myfile
-   ```
+    ```bash
+    ls -l
+    ```
 
-3. **Grant Group Write Access:**
-   ```bash
-   chmod g+w myfile
-   ```
+    This is the most common command you’ll run to inspect permissions.
+2.  **Deny Access to Others:** Remove all permissions for "others":
 
-4. **Make a Script Executable:**
-   ```bash
-   chmod +x script.sh
-   ```
+    ```bash
+    chmod o-rwx myfile
+    ```
+3.  **Grant Group Write Access:**
 
-5. **Fix "Permission Denied" Errors:**
-   If a user can't access a directory, use:
-   ```bash
-   chmod +x directory
-   ```
+    ```bash
+    chmod g+w myfile
+    ```
+4.  **Make a Script Executable:**
 
-**Quick practice tip:**  
+    ```bash
+    chmod +x script.sh
+    ```
+5.  **Fix "Permission Denied" Errors:** If a user can't access a directory, use:
+
+    ```bash
+    chmod +x directory
+    ```
+
+**Quick practice tip:**\
 Start by creating a simple text file (`touch testfile`) and play around with these commands to see how permissions change.
 
----
+***
 
-### Summary of Your 20%:
+#### Summary of Your 20%:
 
-1. **Viewing Permissions:**  
+1. **Viewing Permissions:**\
    `ls -l <file/directory>`
-
-2. **Changing Permissions:**  
+2. **Changing Permissions:**\
    `chmod <permissions> <file>`
-
-3. **Changing Ownership:**  
+3. **Changing Ownership:**\
    `chown <user>:<group> <file>`
-
-4. **Sticky Bit (for directories):**  
+4. **Sticky Bit (for directories):**\
    `chmod +t <directory>`
 
 Practice these commands, and you'll be handling 80% of the work an entry-level security analyst does when managing permissions!
 
-# Permission Management
+## Permission Management
 
----
+***
 
 Under Linux, permissions are assigned to users and groups. Each user can be a member of different groups, and membership in these groups gives the user specific, additional permissions. Each file and directory belongs to a specific user and a specific group. So the permissions for users and groups that defined a file are also defined for the respective owners. When we create new files or directories, they belong to the group we belong to and us.
 
-When a user wants to access the contents of a Linux directory, they must first traverse the directory, which means navigating to that directory, requiring the user to have `execute` permissions on the directory. Without this permission, the user cannot access the directory's contents and will instead be presented with a “`Permission Denied`" error message.
+When a user wants to access the contents of a Linux directory, they must first traverse the directory, which means navigating to that directory, requiring the user to have `execute` permissions on the directory. Without this permission, the user cannot access the directory's contents and will instead be presented with a “`Permission Denied`" error message.
 
-  Permission Management
+&#x20; Permission Management
 
 ```shell-session
 cry0l1t3@htb[/htb]$ ls -l
@@ -173,19 +190,19 @@ d????????? ? ? ? ?            ? ..
 d????????? ? ? ? ?            ? subdirectory
 ```
 
-It is important to note that `execute` permissions are necessary to traverse a directory, no matter the user's level of access. Also, `execute` permissions on a directory do not allow a user to execute or modify any files or contents within the directory, only to traverse and access the content of the directory.
+It is important to note that `execute` permissions are necessary to traverse a directory, no matter the user's level of access. Also, `execute` permissions on a directory do not allow a user to execute or modify any files or contents within the directory, only to traverse and access the content of the directory.
 
-To execute files within the directory, a user needs `execute` permissions on the corresponding file. To modify the contents of a directory (create, delete, or rename files and subdirectories), the user needs `write` permissions on the directory.
+To execute files within the directory, a user needs `execute` permissions on the corresponding file. To modify the contents of a directory (create, delete, or rename files and subdirectories), the user needs `write` permissions on the directory.
 
 The whole permission system on Linux systems is based on the octal number system, and basically, there are three different types of permissions a file or directory can be assigned:
 
-- (`r`) - Read
-- (`w`) - Write
-- (`x`) - Execute
+* (`r`) - Read
+* (`w`) - Write
+* (`x`) - Execute
 
-The permissions can be set for the `owner`, `group`, and `others` like presented in the next example with their corresponding permissions.
+The permissions can be set for the `owner`, `group`, and `others` like presented in the next example with their corresponding permissions.
 
-  Permission Management
+&#x20; Permission Management
 
 ```shell-session
 cry0l1t3@htb[/htb]$ ls -l /etc/passwd
@@ -203,13 +220,13 @@ cry0l1t3@htb[/htb]$ ls -l /etc/passwd
 |____________ File type (- = File, d = Directory, l = Link, ... )
 ```
 
----
+***
 
-## Change Permissions
+### Change Permissions
 
-We can modify permissions using the `chmod` command, permission group references (`u` - owner, `g` - Group, `o` - others, `a` - All users), and either a [`+`] or a [`-`] to add remove the designated permissions. In the following example, let us assume we have a file called `shell` and we want to change permissions for it so this script os owned by that user, becomes not executable, and set with read/write permissions for all users.
+We can modify permissions using the `chmod` command, permission group references (`u` - owner, `g` - Group, `o` - others, `a` - All users), and either a \[`+`] or a \[`-`] to add remove the designated permissions. In the following example, let us assume we have a file called `shell` and we want to change permissions for it so this script os owned by that user, becomes not executable, and set with read/write permissions for all users.
 
-  Permission Management
+&#x20; Permission Management
 
 ```shell-session
 cry0l1t3@htb[/htb]$ ls -l shell
@@ -217,9 +234,9 @@ cry0l1t3@htb[/htb]$ ls -l shell
 -rwxr-x--x   1 cry0l1t3 htbteam 0 May  4 22:12 shell
 ```
 
-We can then apply `read` permissions for all users and see the result.
+We can then apply `read` permissions for all users and see the result.
 
-  Permission Management
+&#x20; Permission Management
 
 ```shell-session
 cry0l1t3@htb[/htb]$ chmod a+r shell && ls -l shell
@@ -227,9 +244,9 @@ cry0l1t3@htb[/htb]$ chmod a+r shell && ls -l shell
 -rwxr-xr-x   1 cry0l1t3 htbteam 0 May  4 22:12 shell
 ```
 
-We can also set the permissions for all other users to `read` only using the octal value assignment.
+We can also set the permissions for all other users to `read` only using the octal value assignment.
 
-  Permission Management
+&#x20; Permission Management
 
 ```shell-session
 cry0l1t3@htb[/htb]$ chmod 754 shell && ls -l shell
@@ -239,7 +256,7 @@ cry0l1t3@htb[/htb]$ chmod 754 shell && ls -l shell
 
 Let us look at all the representations associated with it to understand better how the permission assignment is calculated.
 
-  Permission Management
+&#x20; Permission Management
 
 ```shell-session
 Binary Notation:                4 2 1  |  4 2 1  |  4 2 1
@@ -251,17 +268,17 @@ Octal Value:                      7    |    5    |    4
 Permission Representation:      r w x  |  r - x  |  r - -
 ```
 
-If we sum the set bits from the `Binary Representation` assigned to the values from `Binary Notation` together, we get the `Octal Value`. The `Permission Representation` represents the bits set in the `Binary Representation` by using the three characters, which only recognizes the set permissions easier.
+If we sum the set bits from the `Binary Representation` assigned to the values from `Binary Notation` together, we get the `Octal Value`. The `Permission Representation` represents the bits set in the `Binary Representation` by using the three characters, which only recognizes the set permissions easier.
 
----
+***
 
-## Change Owner
+### Change Owner
 
-To change the owner and/or the group assignments of a file or directory, we can use the `chown` command. The syntax is like following:
+To change the owner and/or the group assignments of a file or directory, we can use the `chown` command. The syntax is like following:
 
-#### Syntax - chown
+**Syntax - chown**
 
-  Permission Management
+&#x20; Permission Management
 
 ```shell-session
 cry0l1t3@htb[/htb]$ chown <user>:<group> <file/directory>
@@ -269,7 +286,7 @@ cry0l1t3@htb[/htb]$ chown <user>:<group> <file/directory>
 
 In this example, "shell" can be replaced with any arbitrary file or folder.
 
-  Permission Management
+&#x20; Permission Management
 
 ```shell-session
 cry0l1t3@htb[/htb]$ chown root:root shell && ls -l shell
@@ -277,19 +294,19 @@ cry0l1t3@htb[/htb]$ chown root:root shell && ls -l shell
 -rwxr-xr--   1 root root 0 May  4 22:12 shell
 ```
 
----
+***
 
-## SUID & SGID
+### SUID & SGID
 
-Besides assigning direct user and group permissions, we can also configure special permissions for files by setting the `Set User ID` (`SUID`) and `Set Group ID` (`SGID`) bits. These `SUID`/`SGID` bits allow, for example, users to run programs with the rights of another user. Administrators often use this to give their users special rights for certain applications or files. The letter "`s`" is used instead of an "`x`". When executing such a program, the SUID/SGID of the file owner is used.
+Besides assigning direct user and group permissions, we can also configure special permissions for files by setting the `Set User ID` (`SUID`) and `Set Group ID` (`SGID`) bits. These `SUID`/`SGID` bits allow, for example, users to run programs with the rights of another user. Administrators often use this to give their users special rights for certain applications or files. The letter "`s`" is used instead of an "`x`". When executing such a program, the SUID/SGID of the file owner is used.
 
 It is often the case that administrators are not familiar with the applications but still assign the SUID/SGID bits, which leads to a high-security risk. Such programs may contain functions that allow the execution of a shell from the pager, such as the application "`journalctl`."
 
-If the administrator sets the SUID bit to "`journalctl`," any user with access to this application could execute a shell as `root`. More information about this and other such applications can be found at [GTFObins](https://gtfobins.github.io/gtfobins/journalctl/).
+If the administrator sets the SUID bit to "`journalctl`," any user with access to this application could execute a shell as `root`. More information about this and other such applications can be found at [GTFObins](https://gtfobins.github.io/gtfobins/journalctl/).
 
----
+***
 
-## Sticky Bit
+### Sticky Bit
 
 Sticky bits are a type of file permission in Linux that can be set on directories. This type of permission provides an extra layer of security when controlling the deletion and renaming of files within a directory. It is typically used on directories that are shared by multiple users to prevent one user from accidentally deleting or renaming files that are important to others.
 
@@ -297,7 +314,7 @@ For example, in a shared home directory, where multiple users have access to the
 
 When a sticky bit is set on a directory, it is represented by the letter “`t`" in the execute permission of the directory's permissions. For example, if a directory has permissions “`rwxrwxrwt`", it means that the sticky bit is set, giving the extra level of security so that no one other than the owner or root user can delete or rename the files or folders in the directory.
 
-  Permission Management
+&#x20; Permission Management
 
 ```shell-session
 cry0l1t3@htb[/htb]$ ls -l
@@ -306,6 +323,6 @@ drw-rw-r-t 3 cry0l1t3 cry0l1t3   4096 Jan 12 12:30 scripts
 drw-rw-r-T 3 cry0l1t3 cry0l1t3   4096 Jan 12 12:32 reports
 ```
 
-In this example, we see that both directories have the sticky bit set. However, the `reports` folder has an uppercase `T`, and the `scripts` folder has a lowercase `t`.
+In this example, we see that both directories have the sticky bit set. However, the `reports` folder has an uppercase `T`, and the `scripts` folder has a lowercase `t`.
 
-If the sticky bit is capitalized (`T`), then this means that all other users do not have `execute` (`x`) permissions and, therefore, cannot see the contents of the folder nor run any programs from it. The lowercase sticky bit (`t`) is the sticky bit where the `execute` (`x`) permissions have been set.
+If the sticky bit is capitalized (`T`), then this means that all other users do not have `execute` (`x`) permissions and, therefore, cannot see the contents of the folder nor run any programs from it. The lowercase sticky bit (`t`) is the sticky bit where the `execute` (`x`) permissions have been set.
