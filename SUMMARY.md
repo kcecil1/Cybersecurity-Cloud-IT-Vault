@@ -9,6 +9,7 @@
     * [Wireshark Network Linux Windows VM](<Cloud Projects/Hands on Azure Projects/Wireshark Network Linux Windows VM.md>)
 * [Data Centers](data-centers/README.md)
   * [AWS](data-centers/aws/README.md)
+    * [Technical Fundamentals to keep in mind](data-centers/aws/technical-fundamentals-to-keep-in-mind.md)
     * [Fire Systems](data-centers/aws/fire-systems.md)
     * [UPS PMs](data-centers/aws/ups-pms.md)
     * [Engineering Operations Rounds](data-centers/aws/engineering-operations-rounds.md)
