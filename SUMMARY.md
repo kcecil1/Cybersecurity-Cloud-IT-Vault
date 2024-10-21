@@ -9,6 +9,8 @@
     * [Wireshark Network Linux Windows VM](<Cloud Projects/Hands on Azure Projects/Wireshark Network Linux Windows VM.md>)
 * [Data Centers](data-centers/README.md)
   * [AWS](data-centers/aws/README.md)
+    * [Fire Systems](data-centers/aws/fire-systems.md)
+    * [UPS PMs](data-centers/aws/ups-pms.md)
     * [Engineering Operations Rounds](data-centers/aws/engineering-operations-rounds.md)
     * [PPE & Tools for Troubleshooting Cooling units](data-centers/aws/ppe-and-tools-for-troubleshooting-cooling-units.md)
     * [Motor Bearing troubleshooting](data-centers/aws/motor-bearing-troubleshooting.md)
