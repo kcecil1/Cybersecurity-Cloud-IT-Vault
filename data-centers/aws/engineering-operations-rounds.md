@@ -20,7 +20,7 @@ Imagine you're a **Data Center Detective** on a mission to keep Amazon's data fo
 
 ***
 
-#### 2. **Power Patrol: Keep the Lights On (**Checking Power Systems)
+#### 2. **Power Patrol: Keep the Lights On (**&#x43;hecking Power Systems)
 
 * **Mission**: The power's gotta stay strong, like the heartbeat of the fortress. (Ensure reliable power supply to the data center.)
 * **Look for**:
@@ -32,7 +32,7 @@ Imagine you're a **Data Center Detective** on a mission to keep Amazon's data fo
 
 ***
 
-#### 3. **Cool It Down: Air Conditioner Superheroes (**Monitoring Cooling Systems)
+#### 3. **Cool It Down: Air Conditioner Superheroes (**&#x4D;onitoring Cooling Systems)
 
 * **Mission**: Keep the data fortress cool, no overheating allowed! (Maintain optimal temperatures for servers and equipment.)
 * **Look for**:
@@ -44,7 +44,7 @@ Imagine you're a **Data Center Detective** on a mission to keep Amazon's data fo
 
 ***
 
-#### 4. **Safety First: Fire-Busters on Patrol (**Fire Suppression and Safety Systems)
+#### 4. **Safety First: Fire-Busters on Patrol (**&#x46;ire Suppression and Safety Systems)
 
 * **Mission**: Make sure the fire-safety squad is ready for action! (Ensure the facility's fire safety systems are operational.)
 * **Look for**:
@@ -56,7 +56,7 @@ Imagine you're a **Data Center Detective** on a mission to keep Amazon's data fo
 
 ***
 
-#### 5. **Network Ninjas: Keep the Wi-Fi Woes Away (**Network and Connectivity Monitoring)
+#### 5. **Network Ninjas: Keep the Wi-Fi Woes Away (**&#x4E;etwork and Connectivity Monitoring)
 
 * **Mission**: Keep that sweet internet flowing smoothly through the veins of the fortress. (Maintain continuous network connectivity.)
 * **Look for**:
@@ -90,7 +90,7 @@ Imagine you're a **Data Center Detective** on a mission to keep Amazon's data fo
 
 ***
 
-#### 8. **Backup Power: Ready for an Emergency Showdown (**Battery and Backup Systems**)**
+#### 8. **Backup Power: Ready for an Emergency Showdown (**&#x42;attery and Backup System&#x73;**)**
 
 * **Mission**: Make sure backup power is ready to save the day! (Ensure emergency backup power systems are ready to engage if needed.)
 * **Look for**:
@@ -116,7 +116,7 @@ Imagine you're a **Data Center Detective** on a mission to keep Amazon's data fo
 
 ***
 
-#### 10. **Redundancy Ready: Backup Heroes On Standby (**Redundancy and Resiliency Checks**)**
+#### 10. **Redundancy Ready: Backup Heroes On Standby (**&#x52;edundancy and Resiliency Check&#x73;**)**
 
 * **Mission**: Make sure all backup systems are ready to swoop in!
 * **Look for**:
