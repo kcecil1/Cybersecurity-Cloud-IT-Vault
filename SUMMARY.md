@@ -273,3 +273,4 @@
   * [1.4 WHY THINK ABOUT TECHNOLOGY AND ETHICS TOGETHER?](wgu-network-engineering-and-security/ethics-in-technology/1.4-why-think-about-technology-and-ethics-together.md)
   * [1.5 WHY USE SCIENCE FICTION TO STUDY ETHICS?](wgu-network-engineering-and-security/ethics-in-technology/1.5-why-use-science-fiction-to-study-ethics.md)
   * [1.6 PROFESSIONAL ETHICS AND GUIDELINES](wgu-network-engineering-and-security/ethics-in-technology/1.6-professional-ethics-and-guidelines.md)
+  * [1.7 THINKING WITH ETHICAL FRAMEWORKS](wgu-network-engineering-and-security/ethics-in-technology/1.7-thinking-with-ethical-frameworks.md)
