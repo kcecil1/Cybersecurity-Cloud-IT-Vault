@@ -272,3 +272,4 @@
   * [1.3 Why Study Ethics?](wgu-network-engineering-and-security/ethics-in-technology/1.3-why-study-ethics.md)
   * [1.4 WHY THINK ABOUT TECHNOLOGY AND ETHICS TOGETHER?](wgu-network-engineering-and-security/ethics-in-technology/1.4-why-think-about-technology-and-ethics-together.md)
   * [1.5 WHY USE SCIENCE FICTION TO STUDY ETHICS?](wgu-network-engineering-and-security/ethics-in-technology/1.5-why-use-science-fiction-to-study-ethics.md)
+  * [1.6 PROFESSIONAL ETHICS AND GUIDELINES](wgu-network-engineering-and-security/ethics-in-technology/1.6-professional-ethics-and-guidelines.md)
