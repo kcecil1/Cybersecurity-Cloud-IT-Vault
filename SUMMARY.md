@@ -248,7 +248,6 @@
           * [Understand risks, threats, and vulnerabilities](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-1/intro-to-assets/understand-risks-threats-and-vulnerabilities.md)
         * [Review, Intro to Asset Security](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-1/review-intro-to-asset-security/README.md)
           * [26 Module 1 Glossary](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-1/review-intro-to-asset-security/26-module-1-glossary.md)
-          * [Quiz Module 1](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-1/review-intro-to-asset-security/quiz-module-1.md)
         * [Risk and Asset Security](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-1/risk-and-asset-security/README.md)
           * [Security guidelines in action](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-1/risk-and-asset-security/security-guidelines-in-action.md)
       * [Module 2](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-2/README.md)
