@@ -267,6 +267,7 @@
 ## WGU Network Engineering and Security
 
 * [Ethics in Technology](wgu-network-engineering-and-security/ethics-in-technology/README.md)
+  * [Computing and Technology Ethics: Engaging Through Science Fiction Textbook](wgu-network-engineering-and-security/ethics-in-technology/computing-and-technology-ethics-engaging-through-science-fiction-textbook.md)
   * [1.1 Why Ethics? Why Science Fiction?](wgu-network-engineering-and-security/ethics-in-technology/1.1-why-ethics-why-science-fiction.md)
   * [1.2 WHAT DOES IT MEAN TO SAY, “IS IT ETHICAL …”?](wgu-network-engineering-and-security/ethics-in-technology/1.2-what-does-it-mean-to-say-is-it-ethical-....md)
   * [1.3 Why Study Ethics?](wgu-network-engineering-and-security/ethics-in-technology/1.3-why-study-ethics.md)
@@ -281,3 +282,12 @@
   * [2.4 COMMUNITARIANISM](wgu-network-engineering-and-security/ethics-in-technology/2.4-communitarianism.md)
   * [2.5 UTILITARIANISM](wgu-network-engineering-and-security/ethics-in-technology/2.5-utilitarianism.md)
   * [2.6 CONTEMPORARY DEVELOPMENTS IN ETHICS](wgu-network-engineering-and-security/ethics-in-technology/2.6-contemporary-developments-in-ethics.md)
+  * [Ethics in Information Technology Textbook](wgu-network-engineering-and-security/ethics-in-technology/ethics-in-information-technology-textbook.md)
+  * [Chapter 1. An Overview of Ethics](wgu-network-engineering-and-security/ethics-in-technology/chapter-1.-an-overview-of-ethics.md)
+  * [What Is Ethics?](wgu-network-engineering-and-security/ethics-in-technology/what-is-ethics.md)
+  * [The Importance of Integrity](wgu-network-engineering-and-security/ethics-in-technology/the-importance-of-integrity.md)
+  * [Morals, Ethics, and Laws—The Triple Threat](wgu-network-engineering-and-security/ethics-in-technology/morals-ethics-and-laws-the-triple-threat.md)
+  * [Why Fostering Corporate Social Responsibility and Good Business Ethics Is Important](wgu-network-engineering-and-security/ethics-in-technology/why-fostering-corporate-social-responsibility-and-good-business-ethics-is-important.md)
+  * [How Organizations Can Improve Their Ethics](wgu-network-engineering-and-security/ethics-in-technology/how-organizations-can-improve-their-ethics.md)
+  * [Including Ethical Considerations in Decision Making](wgu-network-engineering-and-security/ethics-in-technology/including-ethical-considerations-in-decision-making.md)
+  * [Case Studies](wgu-network-engineering-and-security/ethics-in-technology/case-studies.md)
