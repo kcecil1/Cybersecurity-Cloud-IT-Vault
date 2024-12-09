@@ -260,6 +260,7 @@
   * [SC-900: Microsoft Security, Compliance, and Identity Fundamentals Exam](microsoft/sc-900-microsoft-security-compliance-and-identity-fundamentals-exam/README.md)
     * [Introduction](microsoft/sc-900-microsoft-security-compliance-and-identity-fundamentals-exam/introduction.md)
     * [Describe the shared responsibility model](microsoft/sc-900-microsoft-security-compliance-and-identity-fundamentals-exam/describe-the-shared-responsibility-model.md)
+    * [Describe defense in depth](microsoft/sc-900-microsoft-security-compliance-and-identity-fundamentals-exam/describe-defense-in-depth.md)
 
 ## WGU Network Engineering and Security
 
