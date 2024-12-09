@@ -256,6 +256,10 @@
           * [32 Information privacy, Regulations and compliance](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-2/safeguard-information/32-information-privacy-regulations-and-compliance.md)
           * [Data lifecycle](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-2/safeguard-information/data-lifecycle.md)
           * [Principle of least privelage](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-2/safeguard-information/principle-of-least-privelage.md)
+* [Microsoft](microsoft/README.md)
+  * [SC-900: Microsoft Security, Compliance, and Identity Fundamentals Exam](microsoft/sc-900-microsoft-security-compliance-and-identity-fundamentals-exam/README.md)
+    * [Introduction](microsoft/sc-900-microsoft-security-compliance-and-identity-fundamentals-exam/introduction.md)
+    * [Describe the shared responsibility model](microsoft/sc-900-microsoft-security-compliance-and-identity-fundamentals-exam/describe-the-shared-responsibility-model.md)
 
 ## WGU Network Engineering and Security
 
