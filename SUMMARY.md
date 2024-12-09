@@ -265,6 +265,7 @@
     * [Describe encryption and hashing](microsoft/sc-900-microsoft-security-compliance-and-identity-fundamentals-exam/describe-encryption-and-hashing.md)
     * [Describe governance, risk, and compliance (GRC) concepts](microsoft/sc-900-microsoft-security-compliance-and-identity-fundamentals-exam/describe-governance-risk-and-compliance-grc-concepts.md)
     * [Summary and resources](microsoft/sc-900-microsoft-security-compliance-and-identity-fundamentals-exam/summary-and-resources.md)
+    * [Page 1](microsoft/sc-900-microsoft-security-compliance-and-identity-fundamentals-exam/page-1.md)
 
 ## WGU Network Engineering and Security
 
