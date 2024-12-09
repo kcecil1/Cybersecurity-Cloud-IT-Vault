@@ -9,6 +9,8 @@ Let’s make this ADHD-friendly with a simplified breakdown and focus hacks.
 * **Old Way** (On-premises): You handle **everything**—hardware, software, physical security, data.
 * **New Way** (Cloud): You **share the load** with the cloud provider.
 
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
 ***
 
 #### **Responsibility Breakdown by Service Type**
