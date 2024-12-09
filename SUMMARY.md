@@ -262,6 +262,9 @@
     * [Describe the shared responsibility model](microsoft/sc-900-microsoft-security-compliance-and-identity-fundamentals-exam/describe-the-shared-responsibility-model.md)
     * [Describe defense in depth](microsoft/sc-900-microsoft-security-compliance-and-identity-fundamentals-exam/describe-defense-in-depth.md)
     * [Describe the Zero Trust model](microsoft/sc-900-microsoft-security-compliance-and-identity-fundamentals-exam/describe-the-zero-trust-model.md)
+    * [Describe encryption and hashing](microsoft/sc-900-microsoft-security-compliance-and-identity-fundamentals-exam/describe-encryption-and-hashing.md)
+    * [Describe governance, risk, and compliance (GRC) concepts](microsoft/sc-900-microsoft-security-compliance-and-identity-fundamentals-exam/describe-governance-risk-and-compliance-grc-concepts.md)
+    * [Summary and resources](microsoft/sc-900-microsoft-security-compliance-and-identity-fundamentals-exam/summary-and-resources.md)
 
 ## WGU Network Engineering and Security
 
