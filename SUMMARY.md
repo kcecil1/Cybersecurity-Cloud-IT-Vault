@@ -252,20 +252,9 @@
           * [26 Module 1 Glossary](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-1/review-intro-to-asset-security/26-module-1-glossary.md)
       * [Module 2](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-2/README.md)
         * [Safeguard information](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-2/safeguard-information/README.md)
-          * [29 Security Controls](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-2/safeguard-information/29-security-controls.md)
-          * [32 Information privacy, Regulations and compliance](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-2/safeguard-information/32-information-privacy-regulations-and-compliance.md)
-          * [Data lifecycle](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-2/safeguard-information/data-lifecycle.md)
+          * [Security controls](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-2/safeguard-information/security-controls.md)
           * [Principle of least privelage](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-2/safeguard-information/principle-of-least-privelage.md)
-* [Microsoft](microsoft/README.md)
-  * [SC-900: Microsoft Security, Compliance, and Identity Fundamentals Exam](microsoft/sc-900-microsoft-security-compliance-and-identity-fundamentals-exam/README.md)
-    * [Introduction](microsoft/sc-900-microsoft-security-compliance-and-identity-fundamentals-exam/introduction.md)
-    * [Describe the shared responsibility model](microsoft/sc-900-microsoft-security-compliance-and-identity-fundamentals-exam/describe-the-shared-responsibility-model.md)
-    * [Describe defense in depth](microsoft/sc-900-microsoft-security-compliance-and-identity-fundamentals-exam/describe-defense-in-depth.md)
-    * [Describe the Zero Trust model](microsoft/sc-900-microsoft-security-compliance-and-identity-fundamentals-exam/describe-the-zero-trust-model.md)
-    * [Describe encryption and hashing](microsoft/sc-900-microsoft-security-compliance-and-identity-fundamentals-exam/describe-encryption-and-hashing.md)
-    * [Describe governance, risk, and compliance (GRC) concepts](microsoft/sc-900-microsoft-security-compliance-and-identity-fundamentals-exam/describe-governance-risk-and-compliance-grc-concepts.md)
-    * [Summary and resources](microsoft/sc-900-microsoft-security-compliance-and-identity-fundamentals-exam/summary-and-resources.md)
-    * [Page 1](microsoft/sc-900-microsoft-security-compliance-and-identity-fundamentals-exam/page-1.md)
+        * [Authentication, authorization, and accounting](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-2/authentication-authorization-and-accounting.md)
 
 ## WGU Network Engineering and Security
 
