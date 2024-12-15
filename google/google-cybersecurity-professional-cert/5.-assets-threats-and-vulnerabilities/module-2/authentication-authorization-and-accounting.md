@@ -43,6 +43,9 @@ Your task is to apply the concepts of authentication, authorization, and account
 
 ***
 
+***
+
+\
 Your Questions: a. Which principles of access control (least privilege, separation of duties) were violated here, and how?
 
 **Teaching Explanation:**
@@ -106,6 +109,8 @@ When deciding on an access control model for managing contractors, you need to c
 
 **Why RBAC for Contractors?**\
 By using RBAC, you can clearly define a “Contractor” role with limited, job-specific privileges. When the contractor is hired, you simply assign them to that role. When their contract ends, you remove the role assignment and their access is revoked automatically. This reduces the risk of lingering access and makes it easier to consistently apply the principle of least privilege.
+
+***
 
 ***
 
@@ -180,6 +185,8 @@ MFA strengthens the verification process and helps align with IAM’s primary go
 
 ***
 
+***
+
 **Authorization Framework Selection:**
 
 * **Background:** The company wants to ensure that employees only have the privileges necessary for their job functions and no more.
@@ -244,11 +251,80 @@ By structuring the organization so that no single role has end-to-end control, p
 
 ***
 
+***
 
+**Accounting and Audit Logs:**
+
+* **Background:** The security team realizes that investigating after-the-fact requires solid auditing and accounting controls. They want to improve session logging, detect anomalies early, and trace unauthorized activities back to a user or device.
+
+**Your Questions:** a. Which pieces of information would you want your access logs to record to quickly detect suspicious activities?\
+b. Describe how session cookies, session IDs, and tokens help maintain security during user sessions. Also, explain the risks if these tokens are hijacked.\
+c. How would you use audit logs to detect unusual login patterns (e.g., repeated failed attempts, access from unexpected IP addresses), and what steps would you take once suspicious activity is identified?
 
 ***
 
+**Teaching Explanation:**
 
+**a. Which Pieces of Information Should Access Logs Record?**\
+When setting up access logs, include data that helps you identify “who did what, when, and from where.” Important details:
+
+1. **User Identification:**
+   * Username or unique user ID
+   * Associated roles or groups
+2. **Timestamp and Date:**
+   * Exact time of login, logout, and resource access events
+   * Allows you to reconstruct timelines and spot anomalies (like logins during unusual hours)
+3. **Source Information (IP Address, Device Info):**
+   * IP addresses, device identifiers, and geolocation (if available)
+   * Helps detect unusual access patterns, such as logins from unexpected countries
+4. **Event Details:**
+   * Action performed (login attempt, data read/write, account changes)
+   * Resource accessed (specific file names, database records, applications)
+   * Success or failure status of the attempted action
+
+By having these details, security teams can quickly identify suspicious activities—like an unfamiliar device accessing sensitive files at odd hours.
+
+***
+
+**b. Session Cookies, Session IDs, and Tokens:**
+
+* **Session Cookies and Session IDs:**\
+  Web applications often assign a unique session ID stored in a session cookie on the user’s browser after a successful login. This allows the server to remember the user and maintain their authenticated state as they navigate across pages. Without it, the user would have to re-authenticate on every page load.
+* **Tokens (e.g., JWTs or OAuth Tokens):**\
+  Tokens serve a similar purpose but are often more flexible and portable. They can be sent with each request to prove the user’s identity. Tokens may carry information about the user’s role, permissions, and session validity, and can be designed to expire after a set period for security.
+
+**Risks if Tokens are Hijacked:**\
+If an attacker manages to steal a user’s session cookie, session ID, or token, they can impersonate that user, gaining unauthorized access without needing the actual password. This is why it’s crucial to:
+
+* Use secure and encrypted connections (HTTPS) so tokens aren’t easily intercepted.
+* Implement short token lifetimes and refresh mechanisms.
+* Require re-authentication for sensitive actions.
+
+***
+
+**c. Using Audit Logs to Detect Unusual Login Patterns and Taking Action:**
+
+1. **Detecting Unusual Patterns:**
+   * **Repeated Failed Login Attempts:**\
+     Sudden spikes in failed attempts could indicate brute force attacks or password guessing attempts.
+   * **Logins from Unexpected IP Addresses or Locations:**\
+     If a user who normally logs in from one country suddenly starts logging in from another, it may raise a red flag.
+   * **Odd Login Times:**\
+     Login attempts occurring at unusual times (e.g., very late at night when the user typically doesn’t work) can signal suspicious behavior.
+2. **Steps After Identifying Suspicious Activity:**
+   * **Alert and Notification:**\
+     Send alerts to the security team or an automated response system to investigate the anomaly.
+   * **Session Termination:**\
+     If an active suspicious session is detected, invalidate the token or session ID to prevent further unauthorized access.
+   * **Account Lockout or Password Reset:**\
+     Temporarily lock the user’s account to prevent further attempts and prompt them to reset their credentials.
+   * **Review and Strengthen Controls:**\
+     Depending on the severity, consider adding IP-based restrictions, enforcing MFA, or conducting user awareness training.
+   * **Incident Response Procedure:**\
+     Document the event, gather evidence, and follow the company’s incident response plan to contain and mitigate the impact.
+
+**In summary:**\
+Well-structured audit logs combined with proactive monitoring enable the detection of anomalies, while prompt responses help minimize damage and improve overall security.
 
 ***
 
