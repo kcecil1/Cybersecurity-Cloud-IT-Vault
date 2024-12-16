@@ -255,6 +255,7 @@
           * [Security controls](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-2/safeguard-information/security-controls.md)
           * [Principle of least privelage](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-2/safeguard-information/principle-of-least-privelage.md)
         * [Authentication, authorization, and accounting](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-2/authentication-authorization-and-accounting.md)
+        * [Review: Protect organizational assets](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-2/review-protect-organizational-assets.md)
 
 ## WGU Network Engineering and Security
 
