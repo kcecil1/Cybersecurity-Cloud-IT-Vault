@@ -1,6 +1,10 @@
 # Review: Protect organizational assets
 
-Absolutely! Let’s turn this glossary into a fun, bite-sized adventure. 🕵️‍♂️✨ Imagine we're on a tech treasure hunt, and each term is a clue or tool we need. Ready? Let’s dive in! 🚀
+
+
+## Glossary terms from module 2
+
+Let’s turn this glossary into a fun, bite-sized adventure. 🕵️‍♂️✨ Imagine we're on a tech treasure hunt, and each term is a clue or tool we need. Ready? Let’s dive in! 🚀
 
 ***
 
