@@ -1,5 +1,19 @@
 # Authentication, authorization, and accounting
 
+Here are the concise definitions:
+
+* **Authentication:**\
+  Verifying the identity of a user or system to ensure they are who they claim to be.
+* **Authorization:**\
+  Granting or denying specific permissions and access rights to authenticated users based on their roles or policies.
+* **Accounting:**\
+  Tracking and recording user activities and resource usage for monitoring, auditing, and reporting purposes.\
+
+
+***
+
+***
+
 **Scenario Contextualization:**\
 You’ve just joined the security team of a small, rapidly growing online marketing firm. The company manages sensitive client data, including marketing analytics, proprietary campaign strategies, and personnel files for consultants. Recently, there have been two worrying incidents:
 
