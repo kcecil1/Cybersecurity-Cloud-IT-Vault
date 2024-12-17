@@ -10,15 +10,21 @@ Let’s turn this glossary into a fun, bite-sized adventure. 🕵️‍♂️✨
 
 #### 🔐 **Access Controls**
 
-**Think:** Bouncers at a club. **What It Does:** Decides who gets in, who doesn’t, and keeps track of everyone inside. Manages who can see or use information.
+**Think:** Bouncers at a club. **What It Does:** Decides who gets in, who doesn’t, and keeps track of everyone inside. Manages who can see or use information.&#x20;
+
+* Security controls that manage access, authorization, and accountability of information
 
 #### 🧩 **Algorithm**
 
 **Think:** A recipe for your favorite dish. **What It Does:** A step-by-step set of rules to solve a problem or complete a task.
 
+* A set of rules used to solve a problem
+
 #### 🔑 **API Token**
 
 **Think:** A secret handshake. **What It Does:** A tiny, encrypted code that proves who you are when apps talk to each other.
+
+* Application Programming Interface (API) token: A small block of encrypted code that contains information about a user
 
 #### 🔒 **Asymmetric Encryption**
 
@@ -72,9 +78,13 @@ Let’s turn this glossary into a fun, bite-sized adventure. 🕵️‍♂️✨
 
 **Think:** A blender that turns anything into a unique smoothie. **What It Does:** Takes data and creates a fixed-size code that can’t be turned back into the original.
 
+* An algorithm that produces a code that can’t be decrypted
+
 #### 📚 **Hash Table**
 
 **Think:** A super-organized library index. **What It Does:** Stores and retrieves hash values quickly.
+
+* A data structure that's used to store and reference hash values
 
 #### 🆔 **Identity and Access Management (IAM)**
 
@@ -96,6 +106,8 @@ Let’s turn this glossary into a fun, bite-sized adventure. 🕵️‍♂️✨
 
 **Think:** A VIP pass that lets apps share info without sharing passwords. **What It Does:** Allows one app to access parts of another app on your behalf.
 
+* An open-standard authorization protocol that shares designated access between applications
+
 #### 💳 **Payment Card Industry Data Security Standards (PCI DSS)**
 
 **Think:** The rulebook for keeping credit card info safe. **What It Does:** Sets security standards for financial organizations to protect card data.
@@ -103,6 +115,8 @@ Let’s turn this glossary into a fun, bite-sized adventure. 🕵️‍♂️✨
 #### 🕵️‍♀️ **Personally Identifiable Information (PII)**
 
 **Think:** Your personal secret info (like your name or SSN). **What It Does:** Data that can identify you individually.
+
+* Any information used to infer an individual's identity
 
 #### 🏰 **Principle of Least Privilege**
 
