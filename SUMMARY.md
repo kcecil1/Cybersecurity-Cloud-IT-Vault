@@ -259,6 +259,8 @@
       * [Module 3](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-3.md)
         * [Flaws in the system](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-3/flaws-in-the-system.md)
         * [Identify system vulnerabilities](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-3/identify-system-vulnerabilities.md)
+        * [Cyber attacker mindset](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-3/cyber-attacker-mindset.md)
+        * [Fortify against brute force cyber attacks](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-3/fortify-against-brute-force-cyber-attacks.md)
 
 ## WGU Network Engineering and Security
 
