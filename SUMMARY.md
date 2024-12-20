@@ -263,6 +263,7 @@
         * [Fortify against brute force cyber attacks](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-3/fortify-against-brute-force-cyber-attacks.md)
         * [Activity: Identify the attack vectors of a USB drive](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-3/activity-identify-the-attack-vectors-of-a-usb-drive.md)
         * [Glossary terms from module 3](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-3/glossary-terms-from-module-3.md)
+* [GRC Mastery (Governance, Risk and Compliance)](grc-mastery-governance-risk-and-compliance.md)
 
 ## WGU Network Engineering and Security
 
