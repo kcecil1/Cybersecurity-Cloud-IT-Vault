@@ -269,6 +269,7 @@
         * [Malware](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-4/malware.md)
         * [Web-based exploits](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-4/web-based-exploits.md)
         * [Threat modeling](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-4/threat-modeling.md)
+        * [Activity: Apply the PASTA threat model framework](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-4/activity-apply-the-pasta-threat-model-framework.md)
         * [Review: Threats in cybersecurity](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-4/review-threats-in-cybersecurity.md)
 * [GRC Mastery (Governance, Risk and Compliance)](grc-mastery-governance-risk-and-compliance.md)
 
