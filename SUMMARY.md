@@ -263,6 +263,13 @@
         * [Fortify against brute force cyber attacks](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-3/fortify-against-brute-force-cyber-attacks.md)
         * [Activity: Identify the attack vectors of a USB drive](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-3/activity-identify-the-attack-vectors-of-a-usb-drive.md)
         * [Glossary terms from module 3](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-3/glossary-terms-from-module-3.md)
+      * [Module 4](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-4/README.md)
+        * [Social engineering](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-4/social-engineering.md)
+        * [Activity: Filter malicious emails](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-4/activity-filter-malicious-emails.md)
+        * [Malware](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-4/malware.md)
+        * [Web-based exploits](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-4/web-based-exploits.md)
+        * [Threat modeling](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-4/threat-modeling.md)
+        * [Review: Threats in cybersecurity](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-4/review-threats-in-cybersecurity.md)
 * [GRC Mastery (Governance, Risk and Compliance)](grc-mastery-governance-risk-and-compliance.md)
 
 ## WGU Network Engineering and Security
