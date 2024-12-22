@@ -28,10 +28,6 @@
     * [Labs relevant to SOC Analyst](testout-ccna-labs/lab-list/labs-relevant-to-soc-analyst.md)
   * [3.2.7: Find Device Information](testout-ccna-labs/3.2.7-find-device-information.md)
   * [6.2.5 Configure Static Routes](testout-ccna-labs/6.2.5-configure-static-routes.md)
-* [Phishing](phishing/README.md)
-  * [Phishing Awareness Campaign](cybersecurity-projects/phishing-awareness-campaign/README.md)
-    * [MasterCard](cybersecurity-projects/phishing-awareness-campaign/mastercard/README.md)
-      * [Phishing Email Simulation Campaign](<Cybersecurity Projects/Phishing Awareness Campaign/MasterCard/Phishing Email Simulation Campaign.md>)
 * [Data Centers](data-centers/README.md)
   * [AWS](data-centers/aws/README.md)
     * [Technical Fundamentals to keep in mind](data-centers/aws/technical-fundamentals-to-keep-in-mind.md)
@@ -276,6 +272,12 @@
       * [Activity: Apply the PASTA threat model framework](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-4/activity-apply-the-pasta-threat-model-framework.md)
       * [Review: Threats in cybersecurity](google/google-cybersecurity-professional-cert/5.-assets-threats-and-vulnerabilities/module-4/review-threats-in-cybersecurity.md)
 * [GRC Mastery (Governance, Risk and Compliance)](grc-mastery-governance-risk-and-compliance.md)
+* [Phishing](phishing/README.md)
+  * [Phishing Awareness Campaign](cybersecurity-projects/phishing-awareness-campaign/README.md)
+    * [MasterCard](cybersecurity-projects/phishing-awareness-campaign/mastercard/README.md)
+      * [Phishing Email Simulation Campaign](<Cybersecurity Projects/Phishing Awareness Campaign/MasterCard/Phishing Email Simulation Campaign.md>)
+* [TCM Security](tcm-security/README.md)
+  * [Practical Help Desk](tcm-security/practical-help-desk.md)
 
 ## WGU Network Engineering and Security
 
