@@ -277,7 +277,8 @@
     * [MasterCard](cybersecurity-projects/phishing-awareness-campaign/mastercard/README.md)
       * [Phishing Email Simulation Campaign](<Cybersecurity Projects/Phishing Awareness Campaign/MasterCard/Phishing Email Simulation Campaign.md>)
 * [TCM Security](tcm-security/README.md)
-  * [Practical Help Desk](tcm-security/practical-help-desk.md)
+  * [Practical Help Desk](tcm-security/practical-help-desk/README.md)
+    * [Installing VirtualBox](tcm-security/practical-help-desk/installing-virtualbox.md)
 
 ## WGU Network Engineering and Security
 
