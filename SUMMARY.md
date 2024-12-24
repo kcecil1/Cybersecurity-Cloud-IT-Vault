@@ -279,6 +279,7 @@
 * [TCM Security](tcm-security/README.md)
   * [Practical Help Desk](tcm-security/practical-help-desk/README.md)
     * [Installing VirtualBox](tcm-security/practical-help-desk/installing-virtualbox.md)
+    * [Installing Windows 11 on a VM](tcm-security/practical-help-desk/installing-windows-11-on-a-vm.md)
 
 ## WGU Network Engineering and Security
 
