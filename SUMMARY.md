@@ -289,6 +289,12 @@
   * [Practical Help Desk](tcm-security/practical-help-desk/README.md)
     * [Installing VirtualBox](tcm-security/practical-help-desk/installing-virtualbox.md)
     * [Installing Windows 11 on a VM](tcm-security/practical-help-desk/installing-windows-11-on-a-vm.md)
+* [Personal VM Settings](personal-vm-settings/README.md)
+  * [Windows 11 Enterprise](personal-vm-settings/windows-11-enterprise/README.md)
+    * [Config](personal-vm-settings/windows-11-enterprise/config.md)
+  * [Linux ParrotOS](personal-vm-settings/linux-parrotos.md)
+  * [Linux Ubuntu](personal-vm-settings/linux-ubuntu.md)
+  * [Linux Kali](personal-vm-settings/linux-kali.md)
 
 ## WGU Network Engineering and Security
 
