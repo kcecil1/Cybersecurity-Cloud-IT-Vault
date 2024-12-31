@@ -278,6 +278,7 @@
       * [Tier 0 Pen Testing](hack-the-box/labs/offense/tier-0-pen-testing/README.md)
         * [Basic Penetration Testing using Telnet](hack-the-box/labs/offense/tier-0-pen-testing/basic-penetration-testing-using-telnet.md)
         * [FTP Basics and Network Scanning for Pen Testing](hack-the-box/labs/offense/tier-0-pen-testing/ftp-basics-and-network-scanning-for-pen-testing.md)
+        * [Dancing with Protocols: SMB Reconnaissance and Guest Access](hack-the-box/labs/offense/tier-0-pen-testing/dancing-with-protocols-smb-reconnaissance-and-guest-access.md)
   * [Academy](hack-the-box/academy/README.md)
     * [Windows Fundamentals](hack-the-box/academy/windows-fundamentals/README.md)
       * [NTFS vs. Share Permissions](hack-the-box/academy/windows-fundamentals/ntfs-vs.-share-permissions.md)
