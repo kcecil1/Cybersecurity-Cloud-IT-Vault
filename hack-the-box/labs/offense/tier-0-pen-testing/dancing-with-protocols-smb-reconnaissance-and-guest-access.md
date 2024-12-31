@@ -90,5 +90,61 @@ The next task, task 5 is asking me how many shares are there on the Dancing lab.
 
 <figure><img src="../../../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
 
-Grok 2 said:
+I don't really have a password so I attempted to just use the command "smbclient -L //10.129.199.54"
 
+<figure><img src="../../../../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
+
+I got lucky that there wasn't a password set so I was able to just hit enter to skip that. I assumed the four entries were the numbe of shares and I was correct:
+
+<figure><img src="../../../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
+
+I have no idea what share I can access with a blank password. So I asked AI again...
+
+<figure><img src="../../../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
+
+It looks like task 6 is only looking for one answer and that answer is most likely "WorkShares" considering the answer is long and uses a hint with the letter "s" at the end. But it actually looks like I was able to log in with a blank passwork to not only "WorkShares" but also "IPC$":
+
+<figure><img src="../../../../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
+
+Task 7 is asking for what command I can use within the SMB shell to download the files I find... I'm not sure but I'm going to use an educated guess and say the command "get"
+
+<figure><img src="../../../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
+
+Looks like I was correct. The problem is I don't really know how I would use it, I can't seem to figure out how to list anything from the directory of the SMB in order to download something...
+
+<figure><img src="../../../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
+
+But I'm guessing the final task will force me to figure that out.
+
+<figure><img src="../../../../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
+
+I had to ask how to find files in order to even use the get command to download anything in the first place... and then asked about the "." and ".." directories, I guess "." is the current directory and ".." is the directory right above the current one. So the only option I have left is to just try to change directories to either "Amy.J" or "James.P"
+
+<figure><img src="../../../../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
+
+I changed directies into Amy.J and listed the contents then moved back up one level and then changed directories into James.P directory and listed the contents of the directory, striking gold with a file named "flag.txt"
+
+<figure><img src="../../../../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
+
+Then I used the get command to download the file to my linux machine, then used the exit command to quit the smbclient. \
+Then I printed my working directory, listed the contents, found the file and then used the concatenate command to read the files contents, revealing the root flag to me, which I then copy and pasted into the final task for submission.
+
+<figure><img src="../../../../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
