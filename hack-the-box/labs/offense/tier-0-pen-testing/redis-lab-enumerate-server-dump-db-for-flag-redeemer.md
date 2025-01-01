@@ -137,3 +137,5 @@ Just a stab in the dark... but I tried "get flag" and it outputed a pretty long 
 <figure><img src="../../../../.gitbook/assets/image (127).png" alt=""><figcaption></figcaption></figure>
 
 Guess so lol. Had to redeem myself at least a little bit by trying something without looking at the writeup lol...
+
+Funny that I literally worked on this lab for 2 years, jk. It took me til the next year to complete it! I started December 31st 2024 close to midnight... and finished on January 1 2025 after midnight LOL!

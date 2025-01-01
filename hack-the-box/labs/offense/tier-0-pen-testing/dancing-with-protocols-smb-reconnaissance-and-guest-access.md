@@ -4,7 +4,7 @@ description: >-
   0.
 ---
 
-# Dancing with Protocols: SMB Reconnaissance and Guest Access
+# Dancing with Protocols: SMB Reconnaissance and Guest Access (Dancing)
 
 <figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 

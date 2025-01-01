@@ -2,7 +2,7 @@
 description: Meow Lab on Hack the Box (Tier 0) Starting Point.
 ---
 
-# Basic Penetration Testing using Telnet
+# Basic Penetration Testing using Telnet (Meow)
 
 Here I am pinging my target (10.129.166.206) to see if I am on the same network segment or that it is on:\
 
