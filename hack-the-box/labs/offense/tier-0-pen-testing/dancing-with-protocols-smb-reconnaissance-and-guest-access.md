@@ -6,15 +6,15 @@ description: >-
 
 # Dancing with Protocols: SMB Reconnaissance and Guest Access (Dancing)
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 The answer is "Server Message Block"
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 I will attempt to use NMAP to just scan the IP address of the target, since these easy machines typically will tell / show me what port is being used for the protocol they want me to learn.
 
-<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Hmmm... I'm not really sure what I'm looking at here... I will have to investigate further by asking AI what all the output means.
 
