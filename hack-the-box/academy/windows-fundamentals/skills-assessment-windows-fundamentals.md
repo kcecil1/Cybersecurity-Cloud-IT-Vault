@@ -116,29 +116,29 @@ Go back to the company data folder and right click, select properties, sharing t
 
 Select Permissions button
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 Remove the 'Everyone' group from the permissions
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Select 'add'
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Type 'HR' then hit 'check names' then select ok
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Add change and read permission
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 Hit apply, and then OK. Go to the security tab in the properties&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 Select advanced
 
@@ -281,11 +281,55 @@ Next question is List the SID associated with the user account Jim you created.
 
 Whelp... I already forgot about that lol.
 
+Luckily, I did that yesterday, having to look up a user account's sid, so I just looked at my notes from yesterday.
 
+So I copied what I did but with Jim's account name:
 
+Get-WmiObject -Class Win32\_Account -Filter "Name='Jim'"
 
+Which returned the output:
 
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
+The SID is S-1-5-21-2614195641-1726409526-3792725429-1006
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+The last question is: List the SID associated with the HR security group you created.
+
+That is going to be a little tough because I am not 100% sure what the class name is for groups
+
+I made a stab in the dark and entered this command into the powershell:
+
+Get-WmiObject -Class Win32\_Group -Filter "Name='HR'"
+
+which actually gave me an output instead of an error so I may have gotten lucky here
+
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+Here is the HR group SId apparently:
+
+S-1-5-21-2614195641-1726409526-3792725429-1007
+
+Looks like they accepted my answer
+
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+Well, there is another command that can show this as well:
+
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+wmic useraccount get name,sid
+
+This is technically easier and simpler I suppose.
+
+The same for groups
+
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+The command:
+
+wmic group get name,sid&#x20;
 
 
 

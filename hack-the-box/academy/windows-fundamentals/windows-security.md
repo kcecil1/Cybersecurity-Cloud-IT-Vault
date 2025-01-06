@@ -124,7 +124,7 @@ You’re now the Windows security champ! 🏆
 
 <figure><img src="../../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Let's break down the SID piece by piece.
 
@@ -188,9 +188,9 @@ Tokens = Your ID card (SID + security deets). 🆔✨
 
 **Congrats! You leveled up in Windows Security! 🎉**
 
-<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Windows Registry: Fun & ADHD-Friendly Dive 🎮🚀
 
@@ -203,7 +203,7 @@ The **Registry** = The brain of Windows 🧠!
 * **What is it?** A database storing all low-level system & app settings. 🗂️
 * **Open it:** Type `regedit` in the search bar or command line. 🚪🔓
 
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -226,7 +226,7 @@ Here’s the scoop:
 * **REG\_MULTI\_SZ:** Multiple strings like a list. 📝📝📝
 * **REG\_QWORD:** 64-bit numbers (big brain math). 🧠🔢
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
