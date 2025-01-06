@@ -59,6 +59,43 @@ Let’s break down the key differences between **Command Prompt** (the OG) and *
 
 PowerShell is the obvious winner if you need versatility and power. CMD, while trusty, feels like typing on a typewriter in a world of laptops. Which one will you choose to conquer your next challenge? 👑
 
+***
+
+***
+
+#### Scenario: Becoming the Ultimate Command Line Ninja 🥷💻
+
+Imagine this:\
+You’re a **system administrator** by day, but you’ve got a dream—to become a pentesting powerhouse. 💪 But before you can impress your manager and earn that coveted spot with the Internal Red Team, you need to prove your worth.
+
+***
+
+#### The Mission
+
+To level up your skills, you’ll dive into **Windows Command Line Interfaces**—both the trusty **CMD** and the ultra-flexible **PowerShell**. Your goal? To master these tools so thoroughly that no one can deny your place among the elite!
+
+***
+
+#### How This Module Helps 🛠️
+
+Through hands-on practice and guided lessons, you’ll learn:
+
+* The ins and outs of CMD and PowerShell.
+* How these tools can solve real-world admin tasks _and_ aid in pentesting.
+* Techniques to handle reconnaissance, automation, and beyond.
+
+***
+
+By the end of this module, you’ll be equipped with the knowledge and skills to walk into that meeting, drop some command-line wizardry, and secure your title as a **Certified Command Line Ninja**. The Red Team won’t know what hit them. 🥷🔥
+
+Are you ready to crush it? Let’s go! 🚀
+
+
+
+
+
+
+
 
 
 
