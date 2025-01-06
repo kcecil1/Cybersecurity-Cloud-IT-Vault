@@ -50,7 +50,7 @@ That didn't really give me any conclusive information about what port smb operat
 \
 So I asked Grok specifically:
 
-<figure><img src="../../../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (57) (1).png" alt=""><figcaption></figcaption></figure>
 
 Here is the AI's output:\
 SMB (Server Message Block) primarily uses port 445. Here's a breakdown of the ports mentioned:
@@ -66,23 +66,23 @@ So, while ports 135 and 139 might be related to services that interact with SMB 
 
 Alright so it's port 445.
 
-<figure><img src="../../../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (58) (1).png" alt=""><figcaption></figcaption></figure>
 
 Task 3's answer was already revealed by the nmap scan:
 
-<figure><img src="../../../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (60) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (59) (1).png" alt=""><figcaption></figcaption></figure>
 
 For the following task 4 I attempted to answer with the command "ls" but that was incorrect. I shamelessly selected the hint icon, which told me to attempt using the 'man smbclient' command to bring up the list of commands to find it myself:
 
-<figure><img src="../../../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (63) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (62) (1).png" alt=""><figcaption></figcaption></figure>
 
 The answer ended up being "-L"
 
-<figure><img src="../../../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (64) (1).png" alt=""><figcaption></figcaption></figure>
 
 The next task, task 5 is asking me how many shares are there on the Dancing lab... I have absolutely no idea. Guess it's time to ask AI again.
 

@@ -122,7 +122,7 @@ In cybersecurity, **SID** typically stands for **Security Identifier**. It is a 
 
 You’re now the Windows security champ! 🏆
 
-<figure><img src="../../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
