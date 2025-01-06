@@ -286,6 +286,8 @@
       * [NTFS vs. Share Permissions](hack-the-box/academy/windows-fundamentals/ntfs-vs.-share-permissions.md)
       * [Windows Security](hack-the-box/academy/windows-fundamentals/windows-security.md)
       * [Skills Assessment - Windows Fundamentals](hack-the-box/academy/windows-fundamentals/skills-assessment-windows-fundamentals.md)
+    * [Introduction to Windows Command Line](hack-the-box/academy/introduction-to-windows-command-line/README.md)
+      * [Introduction](hack-the-box/academy/introduction-to-windows-command-line/introduction.md)
 * [Phishing](phishing/README.md)
   * [Phishing Awareness Campaign](cybersecurity-projects/phishing-awareness-campaign/README.md)
     * [MasterCard](cybersecurity-projects/phishing-awareness-campaign/mastercard/README.md)
