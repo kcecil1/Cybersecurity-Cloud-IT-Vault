@@ -199,17 +199,17 @@ Go to the HR subfolder, right click on it and select properties:
 
 In the sharing tab select advanced sharing.
 
-<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 Whoops, actually back out of that and don't right click on the HR folder, instead right click inside of the company data folder:
 
-<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 
 Select the sharing tab, then the advanced sharing button and then in the new popup for advanced sharing select permissions
 
-<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
 
 The SID changes to HR automatically
 
@@ -289,7 +289,7 @@ Get-WmiObject -Class Win32\_Account -Filter "Name='Jim'"
 
 Which returned the output:
 
-<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 The SID is S-1-5-21-2614195641-1726409526-3792725429-1006
 

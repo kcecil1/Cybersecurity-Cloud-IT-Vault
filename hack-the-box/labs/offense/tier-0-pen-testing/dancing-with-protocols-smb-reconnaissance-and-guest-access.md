@@ -6,7 +6,7 @@ description: >-
 
 # Dancing with Protocols: SMB Reconnaissance and Guest Access (Dancing)
 
-<figure><img src="../../../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (22) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 The answer is "Server Message Block"
 
