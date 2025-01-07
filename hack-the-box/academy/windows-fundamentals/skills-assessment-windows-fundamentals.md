@@ -213,25 +213,25 @@ Select the sharing tab, then the advanced sharing button and then in the new pop
 
 The SID changes to HR automatically
 
-<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
 
 Go back to the security tab and select advanced
 
-<figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (24) (1).png" alt=""><figcaption></figcaption></figure>
 
 Enable and disable inheritance again ( I may be wrong about this step)
 
-<figure><img src="../../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (25) (1).png" alt=""><figcaption></figcaption></figure>
 
 Hit 'add'&#x20;
 
 Select a principle for permission entry pop up menu
 
-<figure><img src="../../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (26) (1).png" alt=""><figcaption></figcaption></figure>
 
 Enter 'HR' and select okay... I feel like I already did this...
 
-<figure><img src="../../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (27) (1).png" alt=""><figcaption></figcaption></figure>
 
 But 'modify' and 'write' permissions are missing for the company data folder. I must have only put the permissions for the 'hr' folder and since I disabled the inheritance I have to also modify these permissions back for the parent folder for anyone in the hr group.
 
@@ -289,7 +289,7 @@ Get-WmiObject -Class Win32\_Account -Filter "Name='Jim'"
 
 Which returned the output:
 
-<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
 The SID is S-1-5-21-2614195641-1726409526-3792725429-1006
 
