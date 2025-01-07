@@ -1,6 +1,8 @@
 # Table of contents
 
-* [AWS](README.md)
+* [AI](README.md)
+  * [Using AI to become a Hacker](ai/using-ai-to-become-a-hacker.md)
+* [AWS](<README (2).md>)
   * [Certified Cloud Practitioner](aws/certified-cloud-practitioner/README.md)
     * [Intro to AWS](aws/certified-cloud-practitioner/intro-to-aws/README.md)
       * [Theory](aws/certified-cloud-practitioner/intro-to-aws/theory/README.md)

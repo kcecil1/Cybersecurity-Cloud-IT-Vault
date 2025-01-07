@@ -1,6 +1,6 @@
 ---
-description: Notes pertaining to AWS certifications
+description: Pages for utilizing AI to help learn hacking
 ---
 
-# AWS
+# AI
 
