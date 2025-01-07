@@ -281,6 +281,7 @@
         * [Dancing with Protocols: SMB Reconnaissance and Guest Access (Dancing)](hack-the-box/labs/offense/tier-0-pen-testing/dancing-with-protocols-smb-reconnaissance-and-guest-access.md)
         * [Redis Lab: Enumerate Server, Dump DB for Flag (Redeemer)](hack-the-box/labs/offense/tier-0-pen-testing/redis-lab-enumerate-server-dump-db-for-flag-redeemer.md)
         * [Explosion: Programming, Recon, RDP, and Weak Credential Exploitation](hack-the-box/labs/offense/tier-0-pen-testing/explosion-programming-recon-rdp-and-weak-credential-exploitation.md)
+        * [Preignition HTB: Apache Recon, Web Structure Discovery, & Default Credentials Exploit](hack-the-box/labs/offense/tier-0-pen-testing/preignition-htb-apache-recon-web-structure-discovery-and-default-credentials-exploit.md)
   * [Academy](hack-the-box/academy/README.md)
     * [Windows Fundamentals](hack-the-box/academy/windows-fundamentals/README.md)
       * [NTFS vs. Share Permissions](hack-the-box/academy/windows-fundamentals/ntfs-vs.-share-permissions.md)
