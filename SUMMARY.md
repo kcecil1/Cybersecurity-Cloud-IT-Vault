@@ -2,6 +2,7 @@
 
 * [AI](README.md)
   * [Using AI to become a Hacker](ai/using-ai-to-become-a-hacker.md)
+  * [The real world truth about AI Hacking](ai/the-real-world-truth-about-ai-hacking.md)
 * [AWS](<README (2).md>)
   * [Certified Cloud Practitioner](aws/certified-cloud-practitioner/README.md)
     * [Intro to AWS](aws/certified-cloud-practitioner/intro-to-aws/README.md)
