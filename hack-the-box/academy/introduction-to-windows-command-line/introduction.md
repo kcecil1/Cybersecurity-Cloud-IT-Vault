@@ -90,7 +90,48 @@ By the end of this module, you’ll be equipped with the knowledge and skills to
 
 Are you ready to crush it? Let’s go! 🚀
 
+<figure><img src="../../../.gitbook/assets/image (155).png" alt=""><figcaption></figcaption></figure>
 
+#### **Connection Instructions: Let’s Get Connected! 🔗💻**
+
+In this module, you’ll be working with **Windows hosts** using a pure **Command Line Interface (CLI)**. The connection method? **SSH** only. Follow these steps to connect and get started!
+
+***
+
+#### **How to Connect via SSH**
+
+1️⃣ **Command Format**: Use the following syntax to initiate the connection:
+
+```bash
+ssh htb-student@<IP-Address>
+```
+
+Replace `<IP-Address>` with the target host’s IP provided in the lab.
+
+2️⃣ **First-Time Connection**:
+
+* You’ll be prompted to **accept the host’s certificate**. Type `yes` to proceed.
+
+3️⃣ **Authentication**:
+
+* Enter the **user password** when prompted.
+
+***
+
+#### **What Happens After Logging In?**
+
+Once authenticated, you’ll have full command-line access to the target system and can begin completing lab exercises.
+
+***
+
+#### **Pro Tip: Save Time!**
+
+* **Reuse Connections**: Use tools like `tmux` or `screen` to manage multiple SSH sessions efficiently.
+* **Remember Credentials**: Use an SSH key or password manager for convenience (if allowed by the lab setup).
+
+***
+
+Now you’re ready to dive into the CLI and start tackling the challenges like a pro! 🕵️‍♂️✨
 
 
 
