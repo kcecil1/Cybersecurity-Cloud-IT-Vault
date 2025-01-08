@@ -30,7 +30,7 @@ Azure resources created:
 
 Using Wireshark to capture icmp traffic on windows machine when pinging to linux machine !
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Configure security Firewall rule to block all ICMP requests&#x20;
 
@@ -38,7 +38,7 @@ Configure security Firewall rule to block all ICMP requests&#x20;
 
 Then watch as timeout occurs for all ICMP requests to linux vm from windows vm, then ping requests complete again after firewall rule deleted
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 I used chat gpt to explain to me how to connect to the gui of the linux machine, it told me to install xrdp through ssh on my local windows powershell, so I updated and installed xrdp remotely through ssh to the linux machine:
 

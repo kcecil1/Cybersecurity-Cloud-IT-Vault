@@ -120,13 +120,13 @@ Select Permissions button
 
 Remove the 'Everyone' group from the permissions
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Select 'add'
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Type 'HR' then hit 'check names' then select ok
 
@@ -293,7 +293,7 @@ Which returned the output:
 
 The SID is S-1-5-21-2614195641-1726409526-3792725429-1006
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 The last question is: List the SID associated with the HR security group you created.
 
@@ -305,7 +305,7 @@ Get-WmiObject -Class Win32\_Group -Filter "Name='HR'"
 
 which actually gave me an output instead of an error so I may have gotten lucky here
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Here is the HR group SId apparently:
 
@@ -313,7 +313,7 @@ S-1-5-21-2614195641-1726409526-3792725429-1007
 
 Looks like they accepted my answer
 
-<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Well, there is another command that can show this as well:
 
