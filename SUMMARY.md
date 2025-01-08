@@ -292,6 +292,8 @@
     * [Introduction to Windows Command Line](hack-the-box/academy/introduction-to-windows-command-line/README.md)
       * [Introduction](hack-the-box/academy/introduction-to-windows-command-line/introduction.md)
       * [Command Prompt Basics](hack-the-box/academy/introduction-to-windows-command-line/command-prompt-basics.md)
+      * [Getting Help](hack-the-box/academy/introduction-to-windows-command-line/getting-help/README.md)
+        * [Getting Help Cheat Sheet](hack-the-box/academy/introduction-to-windows-command-line/getting-help/getting-help-cheat-sheet.md)
 * [Phishing](phishing/README.md)
   * [Phishing Awareness Campaign](cybersecurity-projects/phishing-awareness-campaign/README.md)
     * [MasterCard](cybersecurity-projects/phishing-awareness-campaign/mastercard/README.md)
