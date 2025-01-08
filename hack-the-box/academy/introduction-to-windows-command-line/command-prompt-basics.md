@@ -26,7 +26,7 @@ Alright! Let's embark on a quirky, ADHD-friendly adventure into the **world of c
 
 **🎉 You’re already leveling up! Go explore, and keep that ninja energy alive!** 🥷💻✨
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 Alright, let’s jazz this up into a fun, ADHD-friendly adventure! ⚡
 
@@ -71,7 +71,7 @@ Modern systems are full of legacy tools that _admins forget about_. CMD.exe is o
 
 So, don’t sleep on CMD—master it, and it’ll always have your back! 🎮💻✨
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Let’s transform this into an ADHD-friendly, fun, and easy-to-grasp walkthrough! 🎉
 
@@ -147,7 +147,7 @@ To keep your network safe:
 
 Now, go forth and launch CMD like the tech wizard you are! 🎩✨
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Let’s make learning **Command Prompt basics** fun, visual, and action-packed! 🎮✨
 
