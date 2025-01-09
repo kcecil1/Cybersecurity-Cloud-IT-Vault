@@ -12,7 +12,7 @@ What command will give us a listing of all files and folders in a specified path
 
 What command will print my current working directory onto the console?
 
-
+<figure><img src="../../../../.gitbook/assets/image (160).png" alt=""><figcaption></figcaption></figure>
 
 
 
