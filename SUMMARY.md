@@ -284,6 +284,8 @@
         * [Redis Lab: Enumerate Server, Dump DB for Flag (Redeemer)](hack-the-box/labs/offense/tier-0-pen-testing/redis-lab-enumerate-server-dump-db-for-flag-redeemer.md)
         * [Explosion: Programming, Recon, RDP, and Weak Credential Exploitation](hack-the-box/labs/offense/tier-0-pen-testing/explosion-programming-recon-rdp-and-weak-credential-exploitation.md)
         * [Preignition HTB: Apache Recon, Web Structure Discovery, & Default Credentials Exploit](hack-the-box/labs/offense/tier-0-pen-testing/preignition-htb-apache-recon-web-structure-discovery-and-default-credentials-exploit.md)
+        * [Exploiting MongoDB Misconfigurations for Anonymous Access in HTB Mongod Lab](hack-the-box/labs/offense/tier-0-pen-testing/exploiting-mongodb-misconfigurations-for-anonymous-access-in-htb-mongod-lab/README.md)
+          * [Writeup](hack-the-box/labs/offense/tier-0-pen-testing/exploiting-mongodb-misconfigurations-for-anonymous-access-in-htb-mongod-lab/writeup.md)
   * [Academy](hack-the-box/academy/README.md)
     * [Windows Fundamentals](hack-the-box/academy/windows-fundamentals/README.md)
       * [NTFS vs. Share Permissions](hack-the-box/academy/windows-fundamentals/ntfs-vs.-share-permissions.md)
