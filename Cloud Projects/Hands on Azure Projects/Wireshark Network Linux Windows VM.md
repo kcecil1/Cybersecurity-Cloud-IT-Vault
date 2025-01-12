@@ -30,7 +30,7 @@ Azure resources created:
 
 Using Wireshark to capture icmp traffic on windows machine when pinging to linux machine !
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Configure security Firewall rule to block all ICMP requests&#x20;
 
