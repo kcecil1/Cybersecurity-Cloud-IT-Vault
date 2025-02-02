@@ -33,6 +33,8 @@
       * [2.1.5 Transport Layer](testout-ccna-training/lessons/section-2.1-tcp-ip-networking-model/2.1.5-transport-layer.md)
       * [2.1.6 Internet Layer](testout-ccna-training/lessons/section-2.1-tcp-ip-networking-model/2.1.6-internet-layer.md)
       * [2.1.7 Link Layer](testout-ccna-training/lessons/section-2.1-tcp-ip-networking-model/2.1.7-link-layer.md)
+      * [2.1.8 TCP/IP Model Facts](testout-ccna-training/lessons/section-2.1-tcp-ip-networking-model/2.1.8-tcp-ip-model-facts.md)
+      * [2.1.9 TCP and UDP Port Numbers](testout-ccna-training/lessons/section-2.1-tcp-ip-networking-model/2.1.9-tcp-and-udp-port-numbers.md)
   * [Labs](testout-ccna-training/labs/README.md)
     * [3.2.7: Find Device Information](testout-ccna-training/labs/3.2.7-find-device-information.md)
     * [6.2.5 Configure Static Routes](testout-ccna-training/labs/6.2.5-configure-static-routes.md)
